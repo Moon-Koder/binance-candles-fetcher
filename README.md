@@ -2,7 +2,7 @@
 
 A lightweight Python module to fetch and stream candlestick data from Binance using both REST and WebSocket APIs.
 
-# 🚀 Features
+## 🚀 Features
 📊 Fetch historical candles with pagination (beyond API limits)
 ⚡ Real-time candle updates via WebSocket
 🧹 Automatic deduplication and ordering
