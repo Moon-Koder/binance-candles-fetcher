@@ -1,13 +1,11 @@
 # Binance Candles Fetcher
 
-Fetch historical and real-time candles from Binance USDM.
+Python module to fetch and stream candlestick data from Binance using REST and WebSocket APIs.
 
 ## Features
-- REST API candle fetching
-- WebSocket candle updates
-- Easy integration into trading systems
+- Fetch historical candles with pagination
+- Real-time candle updates via WebSocket
+- DataFrame integration for analysis
 
-## Setup
-
-```bash
-pip install -r requirements.txt
+## Usage
+Coming soon...
