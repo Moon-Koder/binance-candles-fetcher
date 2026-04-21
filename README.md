@@ -10,7 +10,7 @@ A lightweight Python module to fetch and stream candlestick data from Binance us
 🐼 Integrated with Pandas DataFrame
 🛡️ Rate-limit friendly (dynamic request throttling)
 
-# 🧠 Overview
+## 🧠 Overview
 This project combines two data sources:
 
 REST API → for historical data
@@ -22,7 +22,7 @@ backtesting strategies
 real-time trading systems
 data analysis pipelines
 
-# 📁 Project Structure
+## 📁 Project Structure
 src/
 │
 ├── candles_rest.py        # Fetch historical candles (paginated)
@@ -31,13 +31,13 @@ src/
 ├── utils.py               # Helpers (normalization, timestamps)
 └── client.py              # Binance API client
 
-# ⚙️ Installation
+## ⚙️ Installation
 git clone https://github.com/Moon-Koder/binance-candles-fetcher.git
 cd binance-candles-fetcher
 
 pip install -r requirements.txt
 
-# ▶️ Usage
+## ▶️ Usage
 Fetch historical candles
 from src.candles_rest import get_candles
 
@@ -59,26 +59,21 @@ def handle_candle(candle):
 
 start_candle_socket("BTCUSDT", "1m", on_message=handle_candle)
 
-# 📊 Example Output
+## 📊 Example Output
 open_time           open    high     low   close   volume
 2026-04-19 14:23    75510   75520   75500   75515   12.34
 2026-04-19 14:24    75515   75525   75510   75520    9.87
 ...
 
-# 🛡️ Notes
+## 🛡️ Notes
 No API key required (public endpoints only)
 Designed to avoid rate limits
 Ensures data consistency (no duplicates, correct ordering)
-🧪 Future Improvements
- Gap detection between candles
- Data persistence (CSV / database)
- Indicator integration (RSI, EMA, etc.)
- Backtesting module
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 MoonKoder
 
-# ⭐ Why this project?
+## ⭐ Why this project?
 
 This project was built to explore:
 
