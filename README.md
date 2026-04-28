@@ -22,15 +22,6 @@ backtesting strategies
 real-time trading systems
 data analysis pipelines
 
-## 📁 Project Structure
-src/
-│
-├── candles_rest.py        # Fetch historical candles (paginated)
-├── candles_ws.py          # Real-time WebSocket stream
-├── dataframe_manager.py   # DataFrame handling and updates
-├── utils.py               # Helpers (normalization, timestamps)
-└── client.py              # Binance API client
-
 ## ⚙️ Installation
 git clone https://github.com/Moon-Koder/binance-candles-fetcher.git
 cd binance-candles-fetcher
